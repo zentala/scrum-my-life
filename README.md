@@ -1,9 +1,4 @@
 # Scrum My Life 🚀  
-[![GitHub issues](https://img.shields.io/github/issues/zentala/scrum-my-life.svg)](https://github.com/alan345/naperg/issues)
-[![GitHub forks](https://img.shields.io/github/forks/zentala/scrum-my-life.svg)](https://github.com/alan345/naperg/network)
-[![GitHub stars](https://img.shields.io/github/stars/zentala/scrum-my-life.svg)](https://github.com/alan345/naperg/stargazers)
-[![GitHub license](https://img.shields.io/github/license/zentala/scrum-my-life.svg)](https://github.com/alan345/naperg/blob/master/LICENSE)
-![price](https://img.shields.io/badge/Price-Free-green.svg)
 
 ## Overview
 Personal tasks, projects & habits management app concept. In development. 
@@ -25,22 +20,13 @@ Based on [NAPREG Boilerplate](https://github.com/alan345/naperg) (Node, Apollo, 
 
 For a fully-fledged **React & Apollo tutorial**, visit [How to GraphQL](https://www.howtographql.com/react-apollo/0-introduction/).
 
-### Made with..
+### Made with...
 
-Typescript (https://www.typescriptlang.org/) for the Frontend and the Backend
+[TypeScript](https://www.typescriptlang.org/) for the Frontend and the Backend
 
-Frontend:
+Frontend: [React](https://reactjs.org/), [material-ui-next](https://material-ui.com/), [Apollo Client](https://www.apollographql.com/)
 
-- User interfaces: React https://reactjs.org/
-- Design: material-ui-next https://material-ui.com/
-- GraphQL tool: Apollo Client https://www.apollographql.com/
-
-Backend:
-
-- Server JS: ExpressJs https://expressjs.com/
-- Server GraphQL: https://www.apollographql.com/docs/apollo-server/)
-- ORM (object-relational mapping): Prisma https://www.prisma.io/
-- Database sqlite: https://www.sqlite.org/index.html. You can replace by the database you want (PostgreSQL - MySQL - SQLite - SQL Server). Check the prisma documentation https://www.prisma.io/docs/concepts/
+Backend: [Express.js](https://expressjs.com/), [Server GraphQL](https://www.apollographql.com/docs/apollo-server/), [Prisma ORM](https://www.prisma.io/), [SQLite](https://www.sqlite.org/index.html) (can replace by PostgreSQL/MySQL/SQLite/SQL Server; check the prisma [documentation](https://www.prisma.io/docs/concepts/)).
 
 ## Getting started
 
@@ -144,20 +130,20 @@ yarn start
 
 ## Frontend
 
-#### 1. Install the frontEnd - ReactJs (port 3000). In a new terminal run:
+#### 1. Install dependencies. In a new terminal run:
 
 ```sh
 cd react
 yarn
 ```
 
-#### 2. Start the frontend.
+#### 2. Start the front-end:
 
-```
+``` sh
 yarn start
 ```
 
-#### 3. Go to url: http://localhost:3000
+#### 3. Go to URL: http://localhost:3000
 
 #### 4. Log in to the app with whis Admin User:
 
